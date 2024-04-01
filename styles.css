@@ -17,6 +17,7 @@ body {
 
 .hero {
     padding: 0px;
+    margin: 0px;
     background-image: url("images/windsor-hero.jpg");
     background-size: cover;
     background-position: center;
@@ -52,6 +53,10 @@ h3 {
     font-size: 24px;
 }
 
+#top3-h3 {
+    margin: 40px 0px 0px;
+}
+
 h4 {
     color: #1D3557;
     font-size: 16px;
@@ -66,6 +71,7 @@ p {
 #activities {
     display: flex;
     justify-content: space-around;
+    margin: 54px 0px 88px;
 }
 
 .activity {
@@ -82,7 +88,7 @@ p {
 
 #card {
     width: 400px;
-    padding: 20px 10px;
+    padding: 22px 10px;
     display: flex;
     justify-content: center;
     margin: 0px auto 0px;
