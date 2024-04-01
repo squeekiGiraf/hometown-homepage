@@ -24,6 +24,8 @@ body {
 }
 
 #title-h1 {
+    padding: 4px 12px;
+    border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -32,6 +34,9 @@ body {
 }
 
 #title-h2 {
+    width: 355px;
+    padding: 6px 28px;
+    border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
     font-weight: 700;
