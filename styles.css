@@ -84,6 +84,7 @@ p {
     width: 400px;
     display: flex;
     justify-content: center;
+    margin: 0px auto 0px;
 }
 
 #guide-img {
