@@ -12,6 +12,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .hero {
@@ -32,7 +33,6 @@ body {
     border-radius: 10px;
     margin: 0px 0px 12px;
     font-size: 32px;
-    font-weight: 700;
     color: #F1FAEE;
     background-color: #1D3557;
 }
@@ -43,7 +43,6 @@ body {
     margin: 0px;
     border-radius: 10px;
     font-size: 19px;
-    font-weight: 700;
     color: #F1FAEE;
     background-color: #457B9D;
 }
@@ -51,7 +50,17 @@ body {
 h3 {
     color: #1D3557;
     font-size: 24px;
-    font-weight: 700;
+}
+
+h4 {
+    color: #1D3557;
+    font-size: 16px;
+}
+
+p {
+    color: #1D3557;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 #activities {
@@ -69,6 +78,11 @@ h3 {
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+#card {
+    width: 400px;
+    display: flex;
 }
 
 img {
