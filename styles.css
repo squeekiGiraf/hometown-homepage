@@ -14,7 +14,7 @@ body {
 }
 
 .hero {
-    margin: 0px;
+    padding: 0px;
     background-image: url("images/windsor-hero.jpg");
     background-size: cover;
     background-position: center;
@@ -49,8 +49,14 @@ body {
     background-color: #457B9D;
 }
 
-.activities {
+#activities {
     display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    width: 200px;
+    text-align: center;
 }
 
 .top3-img {
