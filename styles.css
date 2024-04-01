@@ -15,8 +15,7 @@ body {
 
 .hero {
     background-image: url("images/windsor-hero.jpg");
-    background-size: cover;
-    height: 943px;
+    background-size: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
