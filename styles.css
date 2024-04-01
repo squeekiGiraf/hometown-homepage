@@ -29,7 +29,7 @@ body {
 #title-h1 {
     padding: 4px 12px;
     border-radius: 10px;
-    margin: 120px 0px 12px 0px;
+    margin: 0px 0px 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -40,7 +40,7 @@ body {
 #title-h2 {
     width: 355px;
     padding: 6px 28px;
-    margin-top: 0px;
+    margin: 0px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
@@ -60,7 +60,9 @@ body {
 }
 
 .top3-img {
-    width: 104px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
