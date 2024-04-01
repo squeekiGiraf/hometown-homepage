@@ -83,8 +83,14 @@ p {
 #card {
     width: 400px;
     display: flex;
+    justify-content: center;
 }
 
-img {
-    width: 100px;
+#guide-img {
+    width: 180px;
 }
+
+.italic {
+    font-style: italic;
+}
+
