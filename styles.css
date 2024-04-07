@@ -13,6 +13,7 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+    color: #1D3557;
 }
 
 .hero {
@@ -49,23 +50,25 @@ body {
 }
 
 h3 {
-    color: #1D3557;
     font-size: 24px;
 }
 
 #top3-h3 {
-    margin: 40px 0px 0px;
+    margin: 0;
 }
 
 h4 {
-    color: #1D3557;
     font-size: 16px;
 }
 
 p {
-    color: #1D3557;
     font-size: 16px;
     font-weight: 400;
+}
+
+#activities-block {
+    background-color: #F1FAEE;
+    padding: 40px 0px 0px;
 }
 
 #activities {
@@ -77,6 +80,7 @@ p {
 .activity {
     width: 200px;
     text-align: center;
+    padding-bottom: 40px; 
 }
 
 .top3-img {
@@ -91,7 +95,7 @@ p {
     padding: 22px 10px;
     display: flex;
     justify-content: center;
-    margin: 0px auto 0px;
+    margin: 0px auto 50px;
     border-radius: 10px;
     background-color: #A8DADC;
     border-bottom: 6px solid #1D3557;
